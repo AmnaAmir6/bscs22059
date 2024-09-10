@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Faulty Webpage</title>
+    <!-- CSS with errors -->
+    <style>
+        body {
+            background: #ffffff;
+            font-family: Arial, sans-serif; /*syntax error ; should be replaced by :*/
+            color: black; /*wrong color value*/
+            margin: 20px 10px;  /*unit is missing*/
+        }
+        
+        #header {
+            font-weight: 700; 
+            background-color: red; /*no value is given to background-color*/
+        }
+
+        .container {
+            width: 100%; /*unit is missing*/
+            padding: 10px 15px;/*unit was missing*/ 
+            border: 1px solid black;  /*width is missing*/
+            display: flex;  /*syntax error ; should be replaced by :*/
+        }
+
+        .menu-item {
+            text-decoration: none; /*syntax error : is missing before none*/
+            font-size: 16px;/*unit from pt to px*/
+            display:inline block; /*missing - between inline and block*/
+        }
+
+        p::after {
+            content: "" ; /*syntax error ; is missing here*/
+            font-size: 10px;
+        }
+
+        a {
+            text-decoration:underline ; /*wrong spellings of underline*/
+            cursor: pointer;  /*syntax error ; should be replaced by :*/
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML with errors -->
+    <div id="header">
+        <h1>Welcome to Faulty Webpage</h1> 
+        <p>Here you will learn about different issues in web development</p>
+    </div>
+
+    <div class="container">
+        <ul>
+            <li class="menu-item">Home</li> 
+            <li class="menu-item">About Us</li>
+            <li class="menu-item">Contact</li> 
+        </ul>
+
+        <img src="image.jpg" width="300" height="200"/> 
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+        <button onclick="showAlert()">Click Me!</button>
+        <input type="text" id="username" name="username" placeholder="Enter your name"> 
+        <input type="button" value="Submit" onclick="validateForm()"> 
+        <br>
+        <a href="https://www.example.com">Visit Example.com</a> 
+        <hr> 
+    </div>
+
+    <!-- JavaScript with errors -->
+    <script>
+        function showAlert() {
+            alert("Hello World!");  /*syntax error closing bracket is missing*/
+        }
+
+        function validateForm() {
+            var username = document.getElementById("username").value; 
+            if (username === "") { /*assignment operator was written instead of conditional opr*/
+                alert("Username cannot be empty");
+            }
+            else if (username.length < 3) { 
+                alert("Username must be at least 3 characters long");
+            } else {
+                document.form.submit(); 
+            }
+        }
+
+        document.getElementsByClassName("menu-item")[0].style.color = "green"; /*replacing getElementByClassName with getElementsByClassName*/
+        
+        const myArray = [1, 2, 3, 4, 5]; /*syntax error closing bracket is missing*/
+        myArray.forEach(function(item) { /*foreach is case sensitive so forEach*/
+            console.log(item);
+        });
+
+        var number = 10;/*semicolon missing*/
+        if (number === 10) { /*syntax error closing bracket is missing*/
+            console.log("Number is ten") ;/*semicolon missing*/
+        }
+
+        for (var i = 0; i < 10; i++) { /*syntax error closing bracket is missing*/
+            console.log(i);
+        }
+
+        let object = { key: "value", }; 
+        alert("The object key is " + object.key);
+        
+        const undefinedVariable=null;/*value was not assigned to a const variable*/
+        console.log(undefinedVariable); 
+
+        document.addEventListener("click", function() {
+            console.log("Document clicked!");/*semicolon missing*/
+        }
+    )/*syntax error closing bracket for addEventListener is missing*/
+        var missingSemicolon = 'This string is missing a semicolon' ;
+
+        let sum = 10; /*value of + is missing*/
+
+        var myFunc = function() {
+            console.log("Faulty function!"); /*inverted coma was not closed*/
+        } 
+
+        let counter = 0;
+        while (counter < 5) { /*brackets were missing for while statement*/
+            console.log(counter);
+            counter++;
+        }
+    </script>
+</body>
+</html>
