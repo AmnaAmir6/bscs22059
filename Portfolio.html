@@ -3,10 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta name="keywords" content="Amna Amir,ITU,Computer Science">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    
+    <header class="header">
+        <nav class="navbar" id="NavBar">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#" class="icon" onclick="NavBarResponsiveness()">
+                <i class="fa fa-bars"></i>
+            </a>
+              
+        </nav>
+        <section id="about">
+            <h1>About</h1>
+            This is about section
+        </section>
+        <section id="skills">
+            This is skills section
+        </section>
+        <section id="education">
+            This is education section
+        </section>
+        <section id="projects">
+            This is project section
+        </section>
+
+    </header>
+    <script>
+        function NavBarResponsiveness() {
+        var x = document.getElementById("NavBar");
+        if (x.className === "navbar") {
+            x.className += " responsive";
+        } else {
+            x.className = "navbar";
+        }
+        }
+
+    </script>
 </body>
 </html>
