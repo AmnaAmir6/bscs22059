@@ -121,11 +121,55 @@ section {
 
 @keyframes slideInFromLeft {
     0% {
+        transform: translateX(-100px);
         opacity: 0;
-        left: -100%; 
+        /* left: -100%;  */
     }
     100% {
+        transform: translateX(0px);
         opacity: 1;
-        left: 0; 
+        /* left: 0;  */
+    }
+}
+
+h2{
+    text-align: center;
+}
+
+.technical-skills{
+    width: 45%;
+    font-size: x-large;
+}
+
+.technical-skills ul{
+    list-style: none;
+    padding: 0;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 90%;
+    height: 10px;
+    background-color: #333;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 5px;
+}
+
+
+.progress-bar div {
+    height: 100%;
+    background-color: #2bd6d1;
+    border-radius: 5px; 
+    /* animation: slideInFromLeft 2s ease-in-out forwards; */
+}
+
+@media screen and (max-width: 600px) {
+    .technical-skills{
+        width: 80%;
+        font-size: medium;
     }
 }
