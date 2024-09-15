@@ -294,7 +294,7 @@ h2{
     flex-direction: column;
     font-size: 1.5em;
     width: 80%; 
-    margin: 10% 5%;
+    margin: 10%;
 }
 
 .education-container {
@@ -320,4 +320,36 @@ h2{
     #education{
         font-size: small;
     }
+
+        .education-container {
+            padding: 5px;
+        }
+}
+
+.qoute{
+    font-size: larger;
+    font-style: italic;
+    color: #2bd6d1;
+    text-align: center;
+    justify-content: center;
+    animation: slideInFromLeft 4s ease-in-out forwards;
+}
+
+#about-info{
+    font-size: 1.5em;
+    margin: 10%;
+    color: #f6f8f8;
+    width: 80%;
+}
+
+#about-info p{
+    font-size: 1.5em;
+}
+
+#about-info h2{
+    font-size: 2em;
+}
+
+.blue-text{
+    color: #2bd6d1;
 }
