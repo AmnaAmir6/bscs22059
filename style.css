@@ -80,6 +80,7 @@ section {
 
 .image{
     /* padding: 50px 20px; */
+    
     margin: 40px;
     border-radius: 50%;
     box-shadow: 0 0 40px rgba(0, 255, 255, 0.5), 0 0 60px rgba(0, 255, 255, 0.5), 0 0 80px rgba(0, 255, 255, 0.5); 
@@ -184,18 +185,19 @@ h2{
     text-align: center;
     font-size: 3em;
     margin-bottom: 20px;
-    color: #2bd6d1;
+    color: #f6f8f8;
 }
 
 .project-card {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin: 10% 5%;
     font-size: 24px;
     background-color:#8ddad7 ; 
     border-radius: 15px;
     box-shadow: 0 6px 10px rgba(8, 48, 79, 0.814); 
-    padding: 20px;
+    padding: 30px;
     width: 80%; 
     text-align: center;
 }
@@ -231,22 +233,60 @@ h2{
     transition: all 0.5s ease;
 }
 
-
-
 .project-img:hover {
     mask-image: none;
     transform: scale(1.05); 
+}
+
+.project-image{
+    width: 45%;
+}
+
+.project-info{
+    width: 45%;
 }
 
 
 @media screen and (max-width: 600px) {
     .project-card {
         flex-direction: column; 
+        padding: 20px;
+    }
+    .project-image{
+        width: 100%;
+        padding: 0;
     }
     .project-img{
         padding: 0;
+    }
+    .project-info{
+        width: 100%;
     }
     #projects h2 {
         font-size: 2.5em;
     }
 }
+
+
+
+#contact ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#contact li{
+    padding: 20px;
+    font-size: 50px;
+}
+
+#contact li i{
+    color: #2bd6d1;
+}
+
+#contact li i:hover{
+    transform: scale(1.2);
+    color: #0598b3;
+}
+
