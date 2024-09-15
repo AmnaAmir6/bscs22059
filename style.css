@@ -359,3 +359,18 @@ h2{
 .blue-text{
     color: #2bd6d1;
 }
+
+@media screen and (max-width: 600px) {
+.yt-video{
+    width: 80%;
+    height: 35%;
+    padding-bottom: 50px;
+}
+.insta-video{
+    width: 80%;
+    padding-bottom: 50px;
+}
+#about-info{
+    font-size: medium;
+}
+}
