@@ -290,3 +290,34 @@ h2{
     color: #0598b3;
 }
 
+#education{
+    flex-direction: column;
+    font-size: 1.5em;
+    width: 80%; 
+    margin: 10% 5%;
+}
+
+.education-container {
+    background-color:#8ddad7 ; 
+    box-shadow: 0 6px 10px rgba(8, 48, 79, 0.814); 
+    color: #081b28;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.degree{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    #education{
+        font-size: small;
+    }
+}
