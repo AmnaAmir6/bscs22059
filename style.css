@@ -246,6 +246,12 @@ h2{
     width: 45%;
 }
 
+.project-iframe{
+    width: 100%;
+    padding-right: 20px;
+    height: 100%;
+}
+
 
 @media screen and (max-width: 600px) {
     .project-card {
