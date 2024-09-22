@@ -109,5 +109,11 @@
         "institute": "Convent of Jesus and Mary",
         "status": "2009-2020"
       }
+    ],
+    "programs": [
+      { "name": "Algorithm Analysis", "grade": "A+" },
+      { "name": "DSA", "grade": "A+" },
+      { "name": "OOP", "grade": "A+" },
+      { "name": "CFP", "grade": "A" }
     ]
 }

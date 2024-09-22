@@ -70,6 +70,13 @@ function populateEducation(data){
                 </div>`
     ).join('');
     //programs section
+    let programs = document.getElementById("program-container");
+    programs.innerHTML=data.programs.map(program =>
+        `<div class="program">
+                    <h3>${program.name}</h3>
+                    <p>Grade: ${program.grade}</p>
+                </div>`
+    ).join('');
 
 }
 

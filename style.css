@@ -301,7 +301,13 @@ h2{
     font-size: 1.5em;
     width: 80%; 
     margin: 10%;
+    margin-top: 0;
 }
+
+#education h2{
+    margin-top: 10%;
+}
+
 
 #degree-container ,#program-container {
     background-color:#8ddad7 ; 
