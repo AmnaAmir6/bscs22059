@@ -53,6 +53,7 @@ function populateProjects(data) {
                     <div class="project-info">
                         <h3>${project.title}</h3>
                         <p>${project.description}</p>
+                        <i class='bx bx-globe' id="gitlink" onclick="window.open('${project.github_link}', '_blank')"></i>
                         <span class="date">Date: ${project.date}</span>
                     </div>
                 </div>

@@ -59,37 +59,43 @@
             "title": "Ludo Game",
             "description": "A 6 player ludo game developed in C++ and SFML. This game accommodates 2, 4, and 6 players including all traditional features of Ludo and various other functionalities. Using SFML library to create a visually appealing and interactive gaming interface.",
             "date": "2023-04-16",
-            "image": "ludo_game.png"
+            "image": "ludo_game.png",
+            "github_link":"https://github.com/AbdulMoqeet87/Ludo-Legacy.git"
         },
         {
             "title": "Paint App",
             "description": "Paint app developed in Python using Tkinter library, similar to Microsoft Paint.",
             "date": "2023-05-26",
-            "image": "paint_app.png"
+            "image": "paint_app.png",
+            "github_link":"https://github.com/AmnaAmir6/PaintBrushApp.git"
         },
         {
             "title": "Mini Excel Sheets",
             "description": "An excel sheet developed in C and SFML that uses orthogonal linked lists (having pointers in 4 directions). It has various Excel-like functionalities such as range avg, min, max, sum, and allows adding or deleting rows, columns, or cells.",
             "date": "2023-11-02",
-            "image": "mini_excel.png"
+            "image": "mini_excel.png",
+            "github_link":""
         },
         {
             "title": "Chess Game",
             "description": "A Chess game developed in C and SFML showcasing every chess functionality and time barrier for each player.",
             "date": "2023-11-02",
-            "image": "chess_game.png"
+            "image": "chess_game.png",
+            "github_link":"https://github.com/AmnaAmir6/CHESS-GAME.git"
         },
         {
             "title": "Solitaire Game",
             "description": "A solitaire game developed in C++ with visually appealing animations and advanced features for different difficulty levels.",
             "date": "2023-10-02",
-            "image": "solitiare_game.png"
+            "image": "solitiare_game.png",
+            "github_link":"https://github.com/AmnaAmir6/Solitaire.git"
         },
         {
             "title": "Sports Arena Booking Site",
             "description": "A MERN stack web app to book a sports arena for a specific sport in your city. Arena owners can post arenas for users to book and organize tournaments in which users can participate.",
             "date": "2023-10-02",
-            "image": "sportify.jpg"
+            "image": "sportify.jpg",
+            "github_link":"https://github.com/AbdulMoqeet87/Sportify2.git"
         }
     ],
     "degrees": [
