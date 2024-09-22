@@ -131,5 +131,11 @@
         "linkedin": "https://www.linkedin.com/in/amna-amir-bb653a286/",
         "github": "https://github.com/AmnaAmir6",
         "whatsapp": "https://wa.me/923354255611"
-      }
+    },
+    "title":"Portfolio",
+    "meta": {
+        "description": "Hey, I'm Amna! A passionate Computer Science student with a love for coding, technology, and innovation. Explore my projects and skills in C++, JavaScript, Python, HTML, and more.",
+        "keywords": "Amna Amir, Computer Science, ITU, Pakistan, coding, web development, C++, JavaScript, Python, HTML, student portfolio, technology, software development, projects",
+        "author": "Amna Amir"
+    }
 }

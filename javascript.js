@@ -83,7 +83,7 @@ function populateEducation(data) {
 function populateContactLinks(data) {
 
     let whatsapp = document.getElementById('whatsapp');
-    
+
     whatsapp.onclick = function() {
         window.open(data.contact_links.whatsapp, '_blank');
     };
@@ -100,7 +100,19 @@ function populateContactLinks(data) {
     github.onclick = function () {
         window.open(data.contact_links.github, '_blank');
     };
+}
 
+function populateHead(data) {
+    document.title = data.title;
+
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription.setAttribute('content', data.meta.description);
+
+    let metaKeywords = document.querySelector('meta[name="keywords"]');
+    metaKeywords.setAttribute('content', data.meta.keywords);
+
+    let metaAuthor = document.querySelector('meta[name="author"]');
+    metaAuthor.setAttribute('content', data.meta.author);
 
 }
 
@@ -111,6 +123,7 @@ function populateProfile(data) {
     populateProjects(data);
     populateEducation(data);
     populateContactLinks(data);
+    populateHead(data);
 }
 
 function NavBarResponsiveness() {
