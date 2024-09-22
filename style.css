@@ -303,7 +303,7 @@ h2{
     margin: 10%;
 }
 
-.education-container {
+#degree-container ,#program-container {
     background-color:#8ddad7 ; 
     box-shadow: 0 6px 10px rgba(8, 48, 79, 0.814); 
     color: #081b28;
@@ -315,7 +315,7 @@ h2{
     margin-top: 20px;
 }
 
-.degree{
+.degree, .program{
     display: flex;
     flex-direction: row;
     justify-content: space-between;

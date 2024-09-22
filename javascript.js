@@ -60,11 +60,25 @@ function populateProjects(data) {
 
 }
 
+function populateEducation(data){
+    //degree section
+    let degrees = document.getElementById("degree-container");
+    degrees.innerHTML=data.degrees.map(degree =>
+        `<div class="degree">
+                    <h3>${degree.name}</h3>
+                    <p>${degree.institute}, ${degree.status}</p>
+                </div>`
+    ).join('');
+    //programs section
+
+}
+
 function populateProfile(data) {
     console.log("in polulate Profile");
     populateAbout(data);
     populateSkills(data);
     populateProjects(data);
+    populateEducation(data);
 }
 
 function NavBarResponsiveness() {
