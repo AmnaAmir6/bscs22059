@@ -117,10 +117,17 @@ function populateHead(data) {
 }
 
 function populateSocialMedia(data){
-    const iframe = document.querySelector('.yt-video');
-    youtubeData=data.youtube;
-    iframe.src = youtubeData.src;
-    iframe.title = youtubeData.title;
+    const youtube_iframe = document.querySelector('.yt-video');
+    youtubeData=data.youtubeVideo;
+    youtube_iframe.src = youtubeData.src;
+    youtube_iframe.title = youtubeData.title;
+
+    const linkedin_iframe = document.querySelector('.linkedin-video');
+    linkedinData=data.linkedinVideo;
+    linkedin_iframe.src = linkedinData.src;
+    linkedin_iframe.title = linkedinData.title;
+    
+
 }
 
 function populateProfile(data) {

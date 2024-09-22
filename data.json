@@ -139,9 +139,13 @@
         "author": "Amna Amir"
     },
 
-        "youtube": {
+        "youtubeVideo": {
             "src": "https://www.youtube.com/embed/KUefeUj62IQ?list=PLGBj0mjD7yXiwMTAxsNdzAzzB63a7xQtp",
             "title": "DSA ITU 2023 Lec-02 STL Vector + Iterators"
+        },
+        "linkedinVideo": {
+            "src": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7162041479912189952",
+            "title": "Ludo Game"
         }
 
     
