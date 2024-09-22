@@ -45,7 +45,7 @@ function populateProjects(data) {
     let projects = document.getElementById("project_section");
     projects.innerHTML =
         `<h2>Projects</h2>
-        ${data.projects.map(project => 
+        ${data.projects.map(project =>
             `<div class="project-card">
                     <div class="project-image">
                         <img class="project-img" src="${project.image}" alt="my ${project.title} project image">
@@ -60,10 +60,10 @@ function populateProjects(data) {
 
 }
 
-function populateEducation(data){
+function populateEducation(data) {
     //degree section
     let degrees = document.getElementById("degree-container");
-    degrees.innerHTML=data.degrees.map(degree =>
+    degrees.innerHTML = data.degrees.map(degree =>
         `<div class="degree">
                     <h3>${degree.name}</h3>
                     <p>${degree.institute}, ${degree.status}</p>
@@ -71,12 +71,36 @@ function populateEducation(data){
     ).join('');
     //programs section
     let programs = document.getElementById("program-container");
-    programs.innerHTML=data.programs.map(program =>
+    programs.innerHTML = data.programs.map(program =>
         `<div class="program">
                     <h3>${program.name}</h3>
                     <p>Grade: ${program.grade}</p>
                 </div>`
     ).join('');
+
+}
+
+function populateContactLinks(data) {
+
+    let whatsapp = document.getElementById('whatsapp');
+    
+    whatsapp.onclick = function() {
+        window.open(data.contact_links.whatsapp, '_blank');
+    };
+   // whatsapp.onclick = `"window.open('${data.contact_links.whatsapp}', '_blank')" `;
+
+    let linkedin = document.getElementById('linkedin');
+
+    linkedin.onclick = function () {
+        window.open(data.contact_links.linkedin, '_blank');
+    };
+
+    let github = document.getElementById('github');
+
+    github.onclick = function () {
+        window.open(data.contact_links.github, '_blank');
+    };
+
 
 }
 
@@ -86,6 +110,7 @@ function populateProfile(data) {
     populateSkills(data);
     populateProjects(data);
     populateEducation(data);
+    populateContactLinks(data);
 }
 
 function NavBarResponsiveness() {

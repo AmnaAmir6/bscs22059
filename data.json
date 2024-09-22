@@ -92,28 +92,44 @@
             "image": "sportify.jpg"
         }
     ],
-  
     "degrees": [
-      {
-        "name": "Bachelor's in Computer Science",
-        "institute": "Information Technology University",
-        "status": "Ongoing"
-      },
-      {
-        "name": "Intermediate - ICS",
-        "institute": "Kinnaird College",
-        "status": "2020-2022"
-      },
-      {
-        "name": "Matriculation in Computer Science",
-        "institute": "Convent of Jesus and Mary",
-        "status": "2009-2020"
-      }
+        {
+            "name": "Bachelor's in Computer Science",
+            "institute": "Information Technology University",
+            "status": "Ongoing"
+        },
+        {
+            "name": "Intermediate - ICS",
+            "institute": "Kinnaird College",
+            "status": "2020-2022"
+        },
+        {
+            "name": "Matriculation in Computer Science",
+            "institute": "Convent of Jesus and Mary",
+            "status": "2009-2020"
+        }
     ],
     "programs": [
-      { "name": "Algorithm Analysis", "grade": "A+" },
-      { "name": "DSA", "grade": "A+" },
-      { "name": "OOP", "grade": "A+" },
-      { "name": "CFP", "grade": "A" }
-    ]
+        {
+            "name": "Algorithm Analysis",
+            "grade": "A+"
+        },
+        {
+            "name": "DSA",
+            "grade": "A+"
+        },
+        {
+            "name": "OOP",
+            "grade": "A+"
+        },
+        {
+            "name": "CFP",
+            "grade": "A"
+        }
+    ],
+    "contact_links": {
+        "linkedin": "https://www.linkedin.com/in/amna-amir-bb653a286/",
+        "github": "https://github.com/AmnaAmir6",
+        "whatsapp": "https://wa.me/923354255611"
+      }
 }
