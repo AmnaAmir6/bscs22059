@@ -4,8 +4,14 @@
       "profession": "Computer Scientist",
       "profilepic":"profilepic.png",
       "description": "Hey there! My name is Amna, and I'm currently pursuing my bachelor's degree in Computer Science. I am a passionate student who loves coding and constantly learning new things in the world of technology.I find immense joy in solving problems, creating solutions, and continually expanding my knowledge. <br>One of my favorite shers that inspires me and reflects my life motto is:",
-      "quote": "چاند کی طرف پرواز کرو<br>اگر تم چاند تک نہ پہنچ سکے تو<br>ستاروں کو ضرور چھو لو گے"
-      
+      "quote": "چاند کی طرف پرواز کرو<br>اگر تم چاند تک نہ پہنچ سکے تو<br>ستاروں کو ضرور چھو لو گے",
+      "technicalskills": [
+      { "name": "C++", "percentage": 90 ,"icon_class":"bx bxl-c-plus-plus","icon_color":"#9605b3"},
+      { "name": "HTML", "percentage": 40 ,"icon_class":"bx bxl-html5","icon_color":"#b35305"},
+      { "name": "CSS", "percentage": 45 ,"icon_class":"bx bxl-css3","icon_color":"#0598b3"},
+      { "name": "JavaScript", "percentage": 25 ,"icon_class":"bx bxl-javascript","icon_color":"#d6e044"},
+      { "name": "Python", "percentage": 60 ,"icon_class":"bx bxl-python","icon_color":"#aa37c7"}
+    ]
     
   }
   

@@ -15,9 +15,24 @@ function populateAbout(data){
 
 }
 
+function populateSkills(data){
+    //technical skills
+    let technical_skills=document.getElementById("technical-skills-ul");
+    technical_skills.innerHTML= data.technicalskills.map(
+        skill=>
+            `<li class="skill"><i class="${skill.icon_class}" style="color:${skill.icon_color}"></i>
+                        ${skill.name}
+                        <div class="progress-bar">
+                            <div style="width:${skill.percentage}%;"></div>
+                        </div>
+            </li>`
+    ).join('');
+}
+
 function populateProfile(data) {
     console.log("in polulate Profile");
     populateAbout(data);
+    populateSkills(data);
 }
 
 function NavBarResponsiveness() {
