@@ -11,7 +11,12 @@
       { "name": "CSS", "percentage": 45 ,"icon_class":"bx bxl-css3","icon_color":"#0598b3"},
       { "name": "JavaScript", "percentage": 25 ,"icon_class":"bx bxl-javascript","icon_color":"#d6e044"},
       { "name": "Python", "percentage": 60 ,"icon_class":"bx bxl-python","icon_color":"#aa37c7"}
+    ],
+    "softskills": [
+      { "name": "Problem Solving", "percentage": 95 },
+      { "name": "Creativity", "percentage": 70 },
+      { "name": "Teamwork", "percentage": 85 },
+      { "name": "Communication", "percentage": 60 }
     ]
-    
   }
   

@@ -27,6 +27,18 @@ function populateSkills(data){
                         </div>
             </li>`
     ).join('');
+
+    //soft skills
+    let soft_skills=document.getElementById("soft-skills-ul");
+    soft_skills.innerHTML= data.softskills.map(
+        skill=>
+            `<li class="skill">
+                        ${skill.name}
+                        <div class="progress-bar">
+                            <div style="width:${skill.percentage}%;"></div>
+                        </div>
+            </li>`
+    ).join('');
 }
 
 function populateProfile(data) {
