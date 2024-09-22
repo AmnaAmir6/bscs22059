@@ -116,6 +116,13 @@ function populateHead(data) {
 
 }
 
+function populateSocialMedia(data){
+    const iframe = document.querySelector('.yt-video');
+    youtubeData=data.youtube;
+    iframe.src = youtubeData.src;
+    iframe.title = youtubeData.title;
+}
+
 function populateProfile(data) {
     console.log("in polulate Profile");
     populateAbout(data);
@@ -124,6 +131,7 @@ function populateProfile(data) {
     populateEducation(data);
     populateContactLinks(data);
     populateHead(data);
+    populateSocialMedia(data);
 }
 
 function NavBarResponsiveness() {

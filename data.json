@@ -137,5 +137,12 @@
         "description": "Hey, I'm Amna! A passionate Computer Science student with a love for coding, technology, and innovation. Explore my projects and skills in C++, JavaScript, Python, HTML, and more.",
         "keywords": "Amna Amir, Computer Science, ITU, Pakistan, coding, web development, C++, JavaScript, Python, HTML, student portfolio, technology, software development, projects",
         "author": "Amna Amir"
-    }
+    },
+
+        "youtube": {
+            "src": "https://www.youtube.com/embed/KUefeUj62IQ?list=PLGBj0mjD7yXiwMTAxsNdzAzzB63a7xQtp",
+            "title": "DSA ITU 2023 Lec-02 STL Vector + Iterators"
+        }
+
+    
 }
